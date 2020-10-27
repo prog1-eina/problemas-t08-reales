@@ -19,7 +19,7 @@ double cos(const double x) {
 	// cos x = 1 - x2/2! + x4/4! - x6/6! + x8/8! - x10/10! + ...
 	const double COTA = 1.0e-15;
 
-	int i = 0; // índice del término
+	unsigned int i = 0; // índice del término
 	double termino = 1.0; // termino = (-1)^i·x^(2i)/(2i)!
 	double resultado = termino; // resultado = suma términos calculados
 
