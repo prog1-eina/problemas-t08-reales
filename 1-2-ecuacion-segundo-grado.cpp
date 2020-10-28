@@ -12,7 +12,7 @@
 using namespace std;
 
 /*
- * Pre:  ---
+ * Pre:  a ≠ 0
  * Post: Si la ecuación ax² + bx + c = 0 tiene soluciones reales, la función 
  *       devuelve el valor booleano «true» y asigna a los parámetros «raiz1» y
  *       «raiz2» las soluciones de la ecuacion. En caso contrario, devuelve el
@@ -54,6 +54,7 @@ int main() {
         else {
             cout << "La ecuación no tiene soluciones reales." << endl;
         }
+
         cout << endl;
         cout << "Escriba los coeficientes a, b y c de la ecuación ax² + bx + c: ";
         cin >> a;
