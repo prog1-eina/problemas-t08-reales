@@ -1,4 +1,4 @@
-# problemas-t08-reales
+# Problemas del tema 8 (reales)
 
 Soluciones a los [problemas del tema 8 (reales)](https://miguel-latre.github.io/transparencias/pbs-tema-08-reales.pdf) de la asignatura [Programación 1](https://github.com/prog1-eina) ([Grado en Ingeniería Informática](https://webdiis.unizar.es/~silarri/coordinadorGrado/), [Escuela de Ingeniería y Arquitectura](https://eina.unizar.es/), [Universidad de Zaragoza](https://www.unizar.es/)).
 
