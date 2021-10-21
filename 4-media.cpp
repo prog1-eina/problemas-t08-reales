@@ -22,7 +22,7 @@ int main() {
     double ultimoDato;
     cin >> ultimoDato;
 
-    unsigned int numDatos = 0;
+    unsigned numDatos = 0;
     double suma = 0.0;
     while (ultimoDato != 0) {
         numDatos++;
