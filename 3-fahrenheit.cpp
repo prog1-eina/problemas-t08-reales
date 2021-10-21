@@ -20,7 +20,7 @@ double convertirACelsius(double gradosFahrenheit) {
 }
 
 /*
- * Programa interactivo que que solicita una temperatura expresada en grados
+ * Programa interactivo que solicita una temperatura expresada en grados
  * Fahrenheit y escriba en la pantalla su equivalente en grados Celsius.
  */
 int main() {
