@@ -1,11 +1,11 @@
-/*
+/*******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 27-10-2020
  * Resumen: Programa interactivo que solicita una temperatura expresada en
  *          grados Fahrenheit y escriba en la pantalla su equivalente en grados
  *          Celsius.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
- */
+ ******************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;

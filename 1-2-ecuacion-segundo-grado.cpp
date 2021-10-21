@@ -1,4 +1,4 @@
-/*
+/*******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 26-10-2020
  * Resumen: Programa interactivo que pregunta repetidamente por los coeficientes
@@ -6,7 +6,7 @@
  *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
  *          también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
- */
+ ******************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -49,7 +49,8 @@ int main() {
 
         double x1, x2;
         if (resolverEcuacion(a, b, c, x1, x2)) {
-            cout << "Las soluciones de la ecuación son " << x1 << " y " << x2 << endl;
+            cout << "Las soluciones de la ecuación son " 
+                 << x1 << " y " << x2 << endl;
         }
         else {
             cout << "La ecuación no tiene soluciones reales." << endl;
