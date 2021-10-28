@@ -15,7 +15,7 @@ using namespace std;
  * Pre:  a ≠ 0
  * Post: Si la ecuación ax² + bx + c = 0 tiene soluciones reales, la función 
  *       devuelve el valor booleano «true» y asigna a los parámetros «raiz1» y
- *       «raiz2» las soluciones de la ecuacion. En caso contrario, devuelve el
+ *       «raiz2» las soluciones de la ecuación. En caso contrario, devuelve el
  *       valor booleano «false».
  */
 bool resolverEcuacion(double a, double b, double c,
@@ -31,6 +31,7 @@ bool resolverEcuacion(double a, double b, double c,
         return false;
     }
 }
+
 
 /*
  * Programa interactivo que pregunta repetidamente por los coeficientes de una 
