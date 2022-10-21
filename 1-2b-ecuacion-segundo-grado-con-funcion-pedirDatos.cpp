@@ -1,4 +1,4 @@
-/*******************************************************************************
+/******************************************************************************\
  * Autores: Miguel Ángel Latre
  * Última revisión: 26-10-2020
  * Resumen: Programa interactivo que pregunta repetidamente por los coeficientes
@@ -6,7 +6,7 @@
  *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
  *          también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
- ******************************************************************************/
+\******************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
