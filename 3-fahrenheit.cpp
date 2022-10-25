@@ -1,10 +1,19 @@
 /******************************************************************************\
  * Autores: Miguel Ángel Latre
- * Última revisión: 27-10-2020
+ * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que solicita una temperatura expresada en
  *          grados Fahrenheit y escriba en la pantalla su equivalente en grados
  *          Celsius.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 3-fahrenheit.cpp -o 3-fahrenheit
+ *       y ejecutarse en Windows a través de la orden
+ *           .\3-fahrenheit.exe
+ *       o en Linux y macOS
+ *           ./3-fahrenheit
 \******************************************************************************/
 #include <iostream>
 #include <iomanip>

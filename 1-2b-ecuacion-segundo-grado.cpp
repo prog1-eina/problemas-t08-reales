@@ -1,11 +1,20 @@
 /******************************************************************************\
  * Autores: Miguel Ángel Latre
- * Última revisión: 26-10-2020
+ * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que pregunta repetidamente por los coeficientes
  *          de una ecuación de segundo grado y escribe en la pantalla si dicha
  *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
  *          también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
+ * Nota: El programa completo está contenido en este fichero, por lo que puede 
+ *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
+ *       Code.
+ *       También puede compilarse desde la terminal través de la orden
+ *           g++ -Wall -Wextra 1-2b-ecuacion-segundo-grado.cpp -o 1-2b-ec
+ *       y ejecutarse en Windows a través de la orden
+ *           .\1-2b-ec.exe
+ *       o en Linux y macOS
+ *           ./1-2b-ec
 \******************************************************************************/
 #include <iostream>
 #include <cmath>
@@ -38,7 +47,7 @@ bool resolverEcuacion(double a, double b, double c,
  * Post: Pide al usuario los valores de los coeficientes de una ecuación de
  *       2º grado, los lee de teclado y los almacena en los parámetros
  *       «a», «b» y «c». Si el dato leído de teclado correspondiente al
- *       parámetro «a» es 0, no ha leído «b» y «c».
+ *       parámetro «a» es 0, no lee «b» ni «c».
  */
 void pedirDatos(double& a, double& b, double& c) {
     cout << "Escriba los coeficientes a, b y c de la ecuación ax² + bx + c: ";
@@ -53,7 +62,7 @@ void pedirDatos(double& a, double& b, double& c) {
  * Programa interactivo que pregunta repetidamente por los coeficientes de una 
  * ecuación de segundo grado y escribe en la pantalla si dicha ecuación tiene 
  * soluciones reales o no, y, en caso de tenerlas, también escribe dichas
- * soluciones. El programa termina cuando el usuario da valor al coeficiente 
+ * soluciones. El programa termina cuando el usuario da valor 0 al coeficiente 
  * cuadrático (a).
  */
 int main() {

@@ -6,3 +6,5 @@ La solución al problema 5 (aproximación del coseno) se encuentra en el
 [repositorio correspondiente al tema de teoría](https://github.com/prog1-eina/tema-08-reales).
 
 Se recomienda **no consultar** estas soluciones hasta **después** de haber intentado resolver los problemas o haber asistido a la clase de problemas correspondiente.
+
+Cada fichero contiene un programa completo, por lo que pueden compilarse y ejecutarse con la extensión Code Runner de Visual Studio Code.
