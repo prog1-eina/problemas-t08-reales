@@ -42,9 +42,10 @@ int main() {
     if (numDatos > 0) {
         cout << "La media es: " << fixed << setprecision(2)
             << suma / numDatos << endl;
+        return 0;
     }
     else {
         cout << "No hay datos que promediar." << endl;
+        return 1;
     }
-    return 0;
 }
