@@ -35,8 +35,7 @@ bool resolverEcuacion(double a, double b, double c,
         raiz1 = (-b + raizD) / (2 * a);
         raiz2 = (-b - raizD) / (2 * a);
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -61,8 +60,7 @@ int main() {
         if (resolverEcuacion(a, b, c, x1, x2)) {
             cout << "Las soluciones de la ecuación son " 
                  << x1 << " y " << x2 << endl;
-        }
-        else {
+        } else {
             cout << "La ecuación no tiene soluciones reales." << endl;
         }
 
