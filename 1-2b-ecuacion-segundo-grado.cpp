@@ -6,6 +6,9 @@
  *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
  *          también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
+ *          Esta versión utiliza una función para pedir los datos al usuario, 
+ *          en la que hay que tener la precaución de no leer los coeficientes
+ *          «b» y «c» cuando el coeficiente «a» es 0.
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
  *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
  *       Code.
