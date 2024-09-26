@@ -20,12 +20,12 @@
 using namespace std;
 
 /*
- * Pre:  gradosFahrenheit >= −459.67 (cero absoluto en ºF).
+ * Pre:  gradosFahrenheit >= −459.67 (cero absoluto en °F).
  * Post: Devuelve la temperatura en grados Celsius equivalente al valor del
  *       parámetro «gradosFahrenheit».
  */
 double convertirACelsius(double gradosFahrenheit) {
-    return 5.0/9.0 * (gradosFahrenheit - 32.0);
+    return 5.0 / 9.0 * (gradosFahrenheit - 32.0);
 }
 
 /*
