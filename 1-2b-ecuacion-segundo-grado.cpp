@@ -31,7 +31,7 @@ using namespace std;
  *       valor booleano «false».
  */
 bool resolverEcuacion(double a, double b, double c,
-                      double& raiz1, double& raiz2) {
+                      double &raiz1, double &raiz2) {
     double discriminante = b * b - 4 * a * c;
     if (discriminante >= 0) {
         double raizD = sqrt(discriminante);
@@ -51,7 +51,7 @@ bool resolverEcuacion(double a, double b, double c,
  *       «a», «b» y «c». Si el dato leído de teclado correspondiente al
  *       parámetro «a» es 0, no lee «b» ni «c».
  */
-void pedirDatos(double& a, double& b, double& c) {
+void pedirDatos(double &a, double &b, double &c) {
     cout << "Escriba los coeficientes a, b y c de la ecuación ax² + bx + c: ";
     cin >> a;
     if (a != 0) {

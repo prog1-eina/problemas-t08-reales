@@ -28,7 +28,7 @@ using namespace std;
  *       valor booleano «false».
  */
 bool resolverEcuacion(double a, double b, double c,
-                      double& raiz1, double& raiz2) {
+                      double &raiz1, double &raiz2) {
     double discriminante = b * b - 4 * a * c;
     if (discriminante >= 0) {
         double raizD = sqrt(discriminante);
