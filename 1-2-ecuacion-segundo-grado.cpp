@@ -1,10 +1,10 @@
-/******************************************************************************\
+/******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 25-10-2022
- * Resumen: Programa interactivo que pregunta repetidamente por los coeficientes
- *          de una ecuación de segundo grado y escribe en la pantalla si dicha
- *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
- *          también escribe dichas soluciones.
+ * Resumen: Programa interactivo que pregunta repetidamente por los
+ *          coeficientes de una ecuación de segundo grado y escribe en la
+ *          pantalla si dicha ecuación tiene soluciones reales o no, y, en caso
+ *          de tenerlas, también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
  * Nota: El programa completo está contenido en este fichero, por lo que puede 
  *       compilarse y ejecutarse con la extensión Code Runner de Visual Studio 
@@ -15,7 +15,7 @@
  *           .\1-2-ec.exe
  *       o en Linux y macOS
  *           ./1-2-ec
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -65,7 +65,8 @@ int main() {
         }
 
         cout << endl;
-        cout << "Escriba los coeficientes a, b y c de la ecuación ax² + bx + c: ";
+        cout << "Escriba los coeficientes a, b y c de la ecuación "
+             << "ax² + bx + c: ";
         cin >> a;
     }
     return 0;

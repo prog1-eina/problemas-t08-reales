@@ -1,8 +1,8 @@
-/******************************************************************************\
+/******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que solicita una secuencia de datos reales al
- *          usuario terminada en 0 y que le informa, a continuación de la media 
+ *          usuario terminada en 0 y que le informa, a continuación de la media
  *          de los datos leídos de teclado, excluido el 0 que finaliza la
  *          secuencia.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
@@ -15,7 +15,7 @@
  *           .\4-media.exe
  *       o en Linux y macOS
  *           ./4-media
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;

@@ -1,10 +1,10 @@
-/******************************************************************************\
+/******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 25-10-2022
- * Resumen: Programa interactivo que pregunta repetidamente por los coeficientes
- *          de una ecuación de segundo grado y escribe en la pantalla si dicha
- *          ecuación tiene soluciones reales o no, y, en caso de tenerlas,
- *          también escribe dichas soluciones.
+ * Resumen: Programa interactivo que pregunta repetidamente por los
+ *          coeficientes de una ecuación de segundo grado y escribe en la
+ *          pantalla si dicha ecuación tiene soluciones reales o no, y, en caso
+ *          de tenerlas, también escribe dichas soluciones.
  *          Clase de problemas de Programación 1 del tema 8 (reales).
  *          Esta versión utiliza una función para pedir los datos al usuario, 
  *          en la que hay que tener la precaución de no leer los coeficientes
@@ -18,7 +18,7 @@
  *           .\1-2b-ec.exe
  *       o en Linux y macOS
  *           ./1-2b-ec
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;

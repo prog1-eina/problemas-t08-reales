@@ -1,4 +1,4 @@
-/******************************************************************************\
+/******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que solicita una temperatura expresada en
@@ -14,7 +14,7 @@
  *           .\3-fahrenheit.exe
  *       o en Linux y macOS
  *           ./3-fahrenheit
-\******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
