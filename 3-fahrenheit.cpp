@@ -1,6 +1,5 @@
 /******************************************************************************
  * Autores: Miguel Ángel Latre
- * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que solicita una temperatura expresada en
  *          grados Fahrenheit y escriba en la pantalla su equivalente en grados
  *          Celsius.

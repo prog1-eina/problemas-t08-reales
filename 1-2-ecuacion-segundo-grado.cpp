@@ -1,6 +1,5 @@
 /******************************************************************************
  * Autores: Miguel Ángel Latre
- * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que pregunta repetidamente por los
  *          coeficientes de una ecuación de segundo grado y escribe en la
  *          pantalla si dicha ecuación tiene soluciones reales o no, y, en caso

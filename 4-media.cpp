@@ -1,6 +1,5 @@
 /******************************************************************************
  * Autores: Miguel Ángel Latre
- * Última revisión: 25-10-2022
  * Resumen: Programa interactivo que solicita una secuencia de datos reales al
  *          usuario terminada en 0 y que le informa, a continuación de la media
  *          de los datos leídos de teclado, excluido el 0 que finaliza la
